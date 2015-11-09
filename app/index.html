@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="likes">
 <head>
-  <title>Hello, World</title>
+  <title>LIKES</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<div class="container">
-		
- 		<h1>How many likes do I have?</h1>
+  <div class="container" ng-controller="MyController">
+    
+    <h1>How many likes do I have?</h1>
 
-		
-	</div>
+    <button ng-click="addLike()">{{ likeCount }}</button>
+    
+  </div>
   
   <script src="js/main.js"></script>
 </body>
