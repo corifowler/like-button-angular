@@ -1,6 +1,6 @@
-## Welcome to My Project
+## Angular "Like Button"
 
-> I am your Readme.md file, you should probably update me.
+> View project here: http://wide-servant.surge.sh/
 
 
 ## Usage
@@ -16,8 +16,6 @@
 
 ## Assets Setup and ready for use
 
-- [Bourbon](http://bourbon.io/)
-- [Neat](http://neat.bourbon.io/)
 - [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
 - [Foundation 5](http://foundation.zurb.com/)
 
@@ -26,9 +24,6 @@
 At the top of your `main.scss` file, just import any of the following:
 
 ```scss
-@import "bourbon";
-@import "neat";
-
 @import "foundation";
 
 @import "font-awesome";
@@ -38,6 +33,7 @@ At the top of your `main.scss` file, just import any of the following:
 
 ## NPM Tools Used
 
+- [Angular]
 - [Babel](https://babeljs.io/)
 - [Browserify](http://browserify.org/)
 - [JavaScript Code Style](http://jscs.info/)
